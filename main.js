@@ -43,7 +43,7 @@ for (let i = 0; i < tabQuestions.length; i++) {
 
     while (choice != 1 && choice != 2 && choice != 3 && choice != 4) {
         console.log("Tape un chiffre entre 1 et 4 pour sélectionner ta réponse");
-        choice = prompt("")
+        choice = Number(prompt(""))
     }
 
     if (choice === tabQuestions[i].goodanswer) {
